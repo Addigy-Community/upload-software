@@ -16,4 +16,6 @@
 Any files living in the target directory that are not one of the above (or `.DS_Store`) will be automatically loaded up to Addigy and included in the custom software as a download. Non-files will be converted to tar.gz files before being uploaded. 
 
 ## To Do
-Files that are converted to tar.gz format should be automatically extracted before the installation script, and the extracted versions should be removed upon completion of the installation script in order to save space on the device.
+- Files that are converted to tar.gz format should be automatically extracted before the installation script, and the extracted versions should be removed upon completion of the installation script in order to save space on the device.
+- Docstrings should be added.
+- This was made in haste and is sloppy. Style improvements should be made.
