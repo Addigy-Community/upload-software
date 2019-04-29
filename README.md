@@ -2,6 +2,16 @@
 
 `uploadsoftware.py` leverages `addytool` to load custom software to Addigy.
 
+**example usage:** `uploadsoftware.py "/path/to/target/folder"`
+
+## Requirements
+
+`addytool` must be installed:
+```
+sudo easy_install pip
+pip install --user addytool
+```
+
 ## Directory Requirements
 `uploadsoftware.py` takes one argument: a directory containing a few essential files. Those files include the following:
 
