@@ -20,6 +20,7 @@ def create_downloads():
     ignored_files = [
         ".DS_Store",
         ".git",
+        ".gitignore",
         "installation_script.sh",
         "removal_script.sh",
         "condition_script.sh",
