@@ -19,6 +19,7 @@ def create_downloads():
     file_upload = addytool.endpoint.FileUpload()
     ignored_files = [
         ".DS_Store",
+        ".git",
         "installation_script.sh",
         "removal_script.sh",
         "condition_script.sh",
